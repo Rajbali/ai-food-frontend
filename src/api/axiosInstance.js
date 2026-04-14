@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken, removeToken } from "../utils/auth";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://ai-food-backend-lzuf.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },
