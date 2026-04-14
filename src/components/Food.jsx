@@ -8,7 +8,7 @@ import PlannerPage from "../pages/Planner";
 import NutritionPage from "../pages/Nutrition";
 import ProfilePage from "../pages/Profile";
 import AdminPage from "../pages/Admin";
-import Chatbot from "./ChatBot";
+import Chatbot from "./Chatbot";
 import { getLikes, toggleLike } from "../api/apiCollection/userApi";
 import { getToken, removeToken } from "../utils/auth";
 // ─── APP ─────────────────────────────────────────────────────────
